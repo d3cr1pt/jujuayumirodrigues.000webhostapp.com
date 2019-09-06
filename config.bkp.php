@@ -3,10 +3,10 @@
     define('DB_NAME','id9950735_crud');
 
     /** Usuário do banco de dados MySQL */
-    define('DB_USER','root');
+    define('DB_USER','id9950735_admin');
 
     /** Senha do banco de dados MySQL */
-    define('DB_PASSWORD','root');
+    define('DB_PASSWORD','12345');
 
     /** Nome do host do MySQL */
     define('DB_HOST','localhost');
@@ -19,7 +19,7 @@
 
     if ( !defined('BASEURL'))
     {
-        define('BASEURL', '/jujuayumirodrigues.000webhostapp.com/');
+        define('BASEURL', '/juju');
     }
 
     if( !defined('DBAPI') )

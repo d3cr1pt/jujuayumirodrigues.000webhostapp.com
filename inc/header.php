@@ -51,11 +51,11 @@
           </li>
           </li>
         </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-							Sign In<span class="caret"></span>
-						</a>
-                    <div class="dropdown-menu" id="formLogin">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            Entrar<span class="caret"></span>
+          </a>
+                    <div class="dropdown-menu" id="formLogin" style="left: -25px; padding: 10px">
                         <div class="row">
                             <div class="container-fluid">
                                 <form method="POST" action="<?php echo BASEURL; ?>login/logar.php">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="<?php echo BASEURL; ?>login/cadastro.php">Register</a>
+                <li><a href="<?php echo BASEURL; ?>login/cadastro.php">Registrar</a>
                 </li>
             </ul>
       </div>
